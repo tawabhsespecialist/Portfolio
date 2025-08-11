@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 <head>
@@ -223,3 +224,230 @@
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
+=======
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tawab Anwar – Health and Safety Specialist</title>
+  <meta name="description" content="Portfolio of Tawab Anwar, Health and Safety Specialist, showcasing certifications, profile, and contact form." />
+  <style>
+    :root{
+      --bg:#f5f6f8;
+      --card:#ffffff;
+      --ink:#222222;
+      --muted:#6b7280;
+      --accent:#ff6a3d;
+      --accent-2:#0f172a;
+      --ring:rgba(255,106,61,.25);
+      --radius:22px;
+      --shadow:0 10px 30px rgba(15,23,42,.08);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+    img{max-width:100%;height:auto;display:block}
+    .container{width:min(1120px,92vw);margin-inline:auto}
+    .section{padding:56px 0}
+
+    /* HERO */
+    .hero{background:linear-gradient(180deg,#fff,#f3f4f6)}
+    .hero-wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding:48px 0}
+    .title{font-size:44px;line-height:1.1;margin:0 0 8px;font-weight:800;letter-spacing:.2px}
+    .subtitle{font-size:18px;color:var(--muted);margin:0}
+    .portrait{justify-self:end;position:relative}
+    .portrait .frame{width:220px;height:260px;border-radius:26px;overflow:hidden;box-shadow:var(--shadow);border:10px solid #fff}
+
+    /* INFO STRIP */
+    .info-strip{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+    .info{display:flex;gap:12px;align-items:flex-start;background:var(--card);padding:16px;border-radius:16px;box-shadow:var(--shadow)}
+    .badge{width:40px;height:40px;border-radius:12px;background:var(--accent);display:grid;place-items:center;color:#fff;font-weight:700;box-shadow:0 8px 24px var(--ring)}
+    .info h4{margin:0 0 2px;font-size:15px}
+    .info p{margin:0;color:var(--muted);font-size:14px}
+
+    /* SECTION HEAD */
+    .head{letter-spacing:.18em;color:#cbd5e1;text-transform:uppercase;text-align:center;margin:24px 0 22px;font-weight:800}
+
+    /* CERTIFICATION ICONS — clean, even grid */
+    .logos{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+      gap:18px;
+      align-items:center;
+      justify-items:center;
+    }
+    .logos .logo{
+      background:#fff;border-radius:14px;padding:18px;box-shadow:var(--shadow);
+      transition:transform .15s ease, box-shadow .15s ease;
+    }
+    .logos .logo:hover{ transform:translateY(-2px); box-shadow:0 14px 36px rgba(15,23,42,.12); }
+    .logos img{ max-height:80px; width:auto; object-fit:contain; }
+
+    /* CERTIFICATE GALLERIES */
+    .gallery{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .cert-card{background:var(--card);padding:16px;border-radius:18px;box-shadow:var(--shadow)}
+
+    /* CONTACT FORM */
+    .contact{background:#6b4eff;color:#fff}
+    .contact .head{color:#eae7ff}
+    form{max-width:600px;margin:0 auto;display:grid;gap:16px}
+    label{font-weight:600}
+    input,textarea{width:100%;padding:12px;border:1px solid #d1d5db;border-radius:10px;font-size:15px}
+    button{padding:12px 16px;background:#fff;color:#2b1dd6;font-weight:700;border:none;border-radius:10px;cursor:pointer}
+    button:hover{filter:brightness(0.95)}
+
+    /* FOOTER */
+    footer{padding:28px 0;color:#94a3b8;text-align:center}
+
+    /* RESPONSIVE */
+    @media (max-width:900px){
+      .hero-wrap{grid-template-columns:1fr}
+      .portrait{justify-self:start}
+      .gallery{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero-wrap">
+      <div>
+        <h1 class="title">Hello, I'm <span style="color:var(--accent)">Tawab Anwar</span></h1>
+        <p class="subtitle">Health and Safety Specialist</p>
+        <div class="info-strip">
+          <div class="info">
+            <div class="badge">☎</div>
+            <div>
+              <h4>Quick Contact</h4>
+              <p>+966573588116 · tawab.hse.specialist1@gmail.com</p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="badge">📍</div>
+            <div>
+              <h4>My Location</h4>
+              <p>Jubail Industrial City, Kingdom of Saudi Arabia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portrait">
+        <div class="frame">
+          <!-- Profile image -->
+          <img src="images/Profile pic/profile.png" alt="Portrait of Tawab Anwar" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CERTIFICATIONS (ICONS) -->
+  <section class="section">
+    <div class="container">
+      <h2 class="head">Certifications</h2>
+      <div class="logos">
+        <div class="logo"><img src="images/1 Certification/cert (1).png" alt="IOSH"></div>
+        <div class="logo"><img src="images/1 Certification/cert (2).png" alt="NEBOSH"></div>
+        <div class="logo"><img src="images/1 Certification/cert (3).png" alt="OSHA"></div>
+        <div class="logo"><img src="images/1 Certification/cert (4).png" alt="University at Buffalo"></div>
+        <div class="logo"><img src="images/1 Certification/cert (5).png" alt="Stony Brook University"></div>
+        <div class="logo"><img src="images/1 Certification/cert (6).png" alt="Coursera"></div>
+        <div class="logo"><img src="images/1 Certification/cert (7).png" alt="Academy"></div>
+        <div class="logo"><img src="images/1 Certification/cert (8).png" alt="Microsoft"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL CERTIFICATION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="head">Professional Certification</h2>
+      <div class="gallery">
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (1).png" alt="Professional Certificate 1"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (2).png" alt="Professional Certificate 2"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (3).png" alt="Professional Certificate 3"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (4).png" alt="Professional Certificate 4"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (5).png" alt="Professional Certificate 5"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (6).png" alt="Professional Certificate 6"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (7).png" alt="Professional Certificate 7"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (8).png" alt="Professional Certificate 8"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (9).png" alt="Professional Certificate 9"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (10).png" alt="Professional Certificate 10"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (11).png" alt="Professional Certificate 11"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (12).png" alt="Professional Certificate 12"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (13).png" alt="Professional Certificate 13"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (14).png" alt="Professional Certificate 14"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (15).png" alt="Professional Certificate 15"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (16).png" alt="Professional Certificate 16"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (17).png" alt="Professional Certificate 17"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (18).png" alt="Professional Certificate 18"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (19).png" alt="Professional Certificate 19"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (20).png" alt="Professional Certificate 20"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (21).png" alt="Professional Certificate 21"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (22).png" alt="Professional Certificate 22"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (23).png" alt="Professional Certificate 23"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (24).png" alt="Professional Certificate 24"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (25).png" alt="Professional Certificate 25"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (26).png" alt="Professional Certificate 26"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (27).png" alt="Professional Certificate 27"></div>
+        <div class="cert-card"><img src="images/2 Professional Certification/pro (28).png" alt="Professional Certificate 28"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FSC CERTIFICATION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="head">FSC Certification</h2>
+      <div class="gallery">
+        <div class="cert-card"><img src="images/3 FSC Certification/fsc (1).png" alt="FSC Certificate 1"></div>
+        <div class="cert-card"><img src="images/3 FSC Certification/fsc (2).png" alt="FSC Certificate 2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATRICULATION CERTIFICATE -->
+  <section class="section">
+    <div class="container">
+      <h2 class="head">Matriculation Certificate</h2>
+      <div class="gallery">
+        <div class="cert-card"><img src="images/4 Matriculation Certificate/matric (1).png" alt="Matriculation Certificate 1"></div>
+        <div class="cert-card"><img src="images/4 Matriculation Certificate/matric (2).png" alt="Matriculation Certificate 2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IDENTITY VERIFICATION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="head">Identity Verification</h2>
+      <div class="gallery">
+        <div class="cert-card"><img src="images/5 Identity verification/identity (1).png" alt="Identity Document 1"></div>
+        <div class="cert-card"><img src="images/5 Identity verification/identity (2).png" alt="Identity Document 2"></div>
+        <div class="cert-card"><img src="images/5 Identity verification/identity (3).png" alt="Identity Document 3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact">
+    <div class="container">
+      <h2 class="head">Contact Me!</h2>
+      <form>
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Subject</label>
+        <input type="text" placeholder="Email Subject">
+        <label>Message</label>
+        <textarea rows="6" placeholder="Write your message..."></textarea>
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">© <span id="y"></span> Tawab Anwar – Health and Safety Specialist. All rights reserved.</div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+>>>>>>> 8c994754935533c23a40ba80a34f98b129ec5753
